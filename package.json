@@ -12,6 +12,7 @@
   "dependencies": {
     "@mattjennings/react-modal": "^1.0.5",
     "@mattjennings/react-modal-stack": "^1.0.0",
+    "@next/env": "^13.1.6",
     "@nextui-org/react": "^1.0.0-beta.10",
     "@sendgrid/mail": "^7.2.6",
     "axios": "^0.27.2",
