@@ -72,7 +72,7 @@ const Banner = () => {
               </Button>
            
             </Box>
-            
+            console.log('teste')
             {state === 'Error' && (
           <MyModal  >{errorMsg}</MyModal>
         )}
