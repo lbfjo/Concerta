@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://startup-agency-minimal.vercel.app
+Host: https://www.concerta-international.com/
 
 # Sitemaps
-Sitemap: https://startup-agency-minimal.vercel.app/sitemap.xml
+Sitemap: https://www.concerta-international.com//sitemap.xml

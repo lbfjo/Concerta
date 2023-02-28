@@ -21,7 +21,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 006" />
+          <SEO title="Concerta International" />
           <Banner1 />
           <Banner />
           <Services />

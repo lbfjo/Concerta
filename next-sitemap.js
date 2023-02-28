@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startup-agency-minimal.vercel.app',
+  siteUrl: "https://www.concerta-international.com/",
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {
