@@ -2,9 +2,7 @@ import React from "react";
 import { ThemeProvider } from "theme-ui";
 import { StickyProvider } from "contexts/app/app.provider";
 import theme from "theme";
-import SEO from "components/seo";
 import Layout from "components/layout";
-
 import Banner from "sections/banner";
 import Services from "sections/services";
 import Testimonials from "sections/testimonials";
@@ -13,8 +11,7 @@ import Feature from "sections/feature";
 import VideoOne from "sections/video-one";
 import CallToAction from "sections/call-to-action";
 import BoostAgencies from "sections/boost-agencies";
-import { withModalTheme } from "@mattjennings/react-modal";
-import Banner1 from "sections/banner1";
+import SEO from "components/seo";
 
 export default function IndexPage() {
   return (
@@ -22,7 +19,6 @@ export default function IndexPage() {
       <StickyProvider>
         <Layout>
           <SEO title="Startup Landing 006" />
-          <Banner1 />
           <Banner />
           <Services />
           <BoostAgencies />

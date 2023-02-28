@@ -99,7 +99,7 @@ export default Banner;
 
 const styles = {
   banner: {
-    pt: ["110px", null, null, null, "150px", "200px"],
+    pt: ["11px", null, null, null, "15px", "20px"],
     pb: ["50px", null, null, null, "60px", null, "0"],
     backgroundColor: "#F6F8FB",
     overflow: "hidden",
