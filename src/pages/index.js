@@ -15,6 +15,7 @@ import CallToAction from "sections/call-to-action";
 import BoostAgencies from "sections/boost-agencies";
 import { withModalTheme } from "@mattjennings/react-modal";
 import Banner1 from "sections/banner1";
+import Maintenance from "sections/maintenance";
 
 export default function IndexPage() {
   return (
@@ -22,15 +23,16 @@ export default function IndexPage() {
       <StickyProvider>
         <Layout>
           <SEO title="Concerta International" />
-          <Banner1 />
+          <Maintenance />
+          {/*<Banner1 />
           <Banner />
           <Services />
-          <BoostAgencies />
+          <BoostAgencies /> */}
           {/* <VideoOne /> */}
-          <Testimonials />
+          {/* <Testimonials />
           <CustomerSupport />
           <Feature />
-          <CallToAction />
+          <CallToAction /> */}
         </Layout>
       </StickyProvider>
     </ThemeProvider>
