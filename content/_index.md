@@ -26,7 +26,7 @@ services:
   - title: "Boost your business with Concerta"
     content: "Concerta was created with the purpose of facilitating the transition for a more modern food and agribusiness. We are a driven group that is constantly available to assist you in preparing your company for the future."
     images:
-      - "/images/service-slide-1.png"
+      - "/images/geral/GERALI.png"
       - "/images/service-slide-2.png"
       - "/images/service-slide-3.png"
     button:
@@ -57,9 +57,9 @@ services:
   - title: "Animal Welfare & Certification"
     content: "In recent years, there has been a discernible shift in consumer preferences across Europe, reflecting a growing interest in purchasing animal products that bear certification. This burgeoning trend is indicative of a broader societal consciousness about the ethical and environmental implications of food consumption."
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/welfair/WELFAIRI.png"
+      - "/images/welfair/WELFAIRII.png"
+      - "/images/welfair/WELFAIRIII.png"
     button:
       enable: true
       label: Check it out
