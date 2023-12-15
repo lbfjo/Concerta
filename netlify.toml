@@ -1,4 +1,2 @@
-# netlify.toml
-[build]
-  command = "next build && next export"
-  publish = "out"
+[functions]
+included_files = ["content/**"]

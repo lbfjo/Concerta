@@ -1,9 +1,4 @@
-# *
 User-agent: *
 Allow: /
 
-# Host
-Host: https://www.concerta-international.com/
-
-# Sitemaps
-Sitemap: https://www.concerta-international.com//sitemap.xml
+Disallow: /api/*

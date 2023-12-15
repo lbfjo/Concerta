@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "Concerta",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo1.png",
+    "logo_width": "158",
+    "logo_height": "28",
+    "logo_text": "Concerta"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Get Started",
+    "link": "/contact"
+  },
+
+  "params": {
+    "contact_form_action": "/api/sendEmail",
+    "tag_manager_id": "",
+    "footer_content": "Bridging the gap between the producer and the consumer"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "",
+    "meta_description": "A SAAS template for nextjs"
+  }
+}
