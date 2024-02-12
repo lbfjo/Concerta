@@ -3,18 +3,6 @@
     {
       "name": "Home",
       "url": "/"
-    },
-    {
-      "name": "Services",
-      "url": "/services"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "FAQ",
-      "url": "/faq"
     }
   ],
   "footer": [

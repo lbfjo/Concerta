@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Bridging the gap between the producer and the consumer
+  title: Em manutenção seremos breves
   content: Concerta was founded in 2021 and is a pioneer in the approach of consulting agrobusiness
   image: /images/BannerConcerta2.png
   button:

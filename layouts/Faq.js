@@ -5,7 +5,7 @@ function Faq({ data }) {
   const { title, faqs } = frontmatter;
   return (
     <section className="section">
-      <div className="container">
+      {/* <div className="container">
         {markdownify(title, "h1", "text-center font-normal")}
         <div className="section row  -mt-6">
           {faqs.map((faq, index) => (
@@ -19,7 +19,7 @@ function Faq({ data }) {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

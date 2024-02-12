@@ -46,7 +46,7 @@ const Home = ({ frontmatter }) => {
       </section>
 
       {/* Features */}
-      <section className="section bg-theme-light">
+      {/* <section className="section bg-theme-light">
         <div className="container">
           <div className="text-center">
             <h2>{markdownify(feature.title)}</h2>
@@ -74,9 +74,10 @@ const Home = ({ frontmatter }) => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* services */}
+      {/*  */}
       {services.map((service, index) => {
         const isOdd = index % 2 > 0;
         return (
@@ -88,28 +89,17 @@ const Home = ({ frontmatter }) => {
               <div className="items-center gap-8 md:grid md:grid-cols-2">
                 {/* Carousel */}
                 <div className={`service-carousel ${!isOdd && "md:order-2"}`}>
-                  <Swiper
-                    modules={[Autoplay, Pagination]}
-                    pagination={
-                      service.images.length > 1 ? { clickable: true } : false
-                    }
-                    autoplay={{
-                      delay: 5000,
-                      disableOnInteraction: false,
-                    }}
-                    init={service?.images > 1 ? false : true}
-                  >
-                    {/* Slides */}
-                    {service?.images.map((slide, index) => (
+                  {/* Slides */}
+                  {/* {service?.images.map((slide, index) => (
                       <SwiperSlide key={index}>
                         <Image src={slide} alt="" width={600} height={500} />
                       </SwiperSlide>
                     ))}
-                  </Swiper>
+                  </Swiper> */}
                 </div>
 
                 {/* Content */}
-                <div
+                {/* <div
                   className={`service-content mt-5 md:mt-0 ${
                     !isOdd && "md:order-1"
                   }`}
@@ -131,7 +121,7 @@ const Home = ({ frontmatter }) => {
                       />
                     </Link>
                   )}
-                </div>
+                </div> */}
               </div>
             </div>
           </section>
@@ -140,7 +130,7 @@ const Home = ({ frontmatter }) => {
 
       {/* workflow */}
 
-      <section className="section pb-0">
+      {/* <section className="section pb-0">
         <div className="mb-8 text-center">
           {markdownify(
             workflow.title,
@@ -155,10 +145,10 @@ const Home = ({ frontmatter }) => {
           width={1920}
           height={296}
         />
-      </section>
+      </section> */}
 
       {/* Cta */}
-      <Cta cta={call_to_action} />
+      {/* <Cta cta={call_to_action} /> */}
     </Base>
   );
 };
